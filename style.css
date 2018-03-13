@@ -1,0 +1,96 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: 700;
+}
+
+.app-name {
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+#location {
+    font-size: 2rem;
+}
+
+.app-box {
+    margin-top: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.60);
+    padding: 15px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature-toggle {
+    display: inline-block;
+}
+
+h1.temperature-toggle {
+    font-size: 5rem;
+}
+
+h1.symbol {
+    font-size: 5rem;
+}
+
+.temperature {
+    width: 300px;
+}
+
+button {
+    font-size: 1rem;
+    margin-left: 20px;
+    height: 30px;
+    width: 92px;
+    border: 2px solid rgba(0, 0, 0, 0.60);
+    background: rgba(0, 0, 0, 0.10);
+    color: #000;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid #000;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+button:active {
+    background: rgba(0, 0, 0, 0.50);
+    color: rgba(255, 255, 255, 0.70);
+}
+
+button:focus {
+    outline: none;
+}
+
+.weather-icon {
+    width: 560px;
+}
+
+.weather-icon img {
+    width: 80px;
+}
+
+.condition {
+    width: 560px;
+}
+
+.wind-speed {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
